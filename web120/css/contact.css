@@ -1,0 +1,70 @@
+
+/*
+/ contact page specific main styles
+*/
+#contact main, #thx main {
+/*    height: 400px;*/
+    width: 100%;
+    float: none;
+    padding: 30px;
+    margin: 0px;
+    border: none;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 3px;
+    clear: both;
+}
+
+#contact form {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+#contact fieldset {
+    border: 1px solid #666;
+    padding: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+
+#contact legend {
+    color: royalblue;
+    font-size: larger;
+}
+
+#contact textarea {
+    width: 100%;
+    margin-bottom: 9px;
+    height: 80px;
+}
+
+#contact input[type=text],
+input[type=email] {
+    width: 50%;
+    margin-bottom: 9px;
+}
+
+#contact form li {
+    list-style-type: none;
+/*    float: left;*/ /* using display: inline instead */
+    display: inline;
+    margin-right:  5px;
+}
+
+#contact input[type=radio],
+input[type=checkbox] {
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
+
+#contact select {
+    margin-bottom: 10px;
+}
+
+#thx main div {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
